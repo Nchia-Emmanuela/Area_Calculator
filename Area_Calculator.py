@@ -1,8 +1,5 @@
-def paint_cal(test_h, test_w, coverage, cans):
-    test_h = int(input("Height of wall: \n"))
-    test_w = int(input("Width of wall: \n"))
-    coverage = 5
-    cans = test_h*
-paint_cal(height=test_h, width = test_w, cover = coverage, )
-
-
+import math
+# function definition.
+def paint_calc(height, width, cover):
+    area = height * width
+    num_of_cans = math.ceil(area / cover)
