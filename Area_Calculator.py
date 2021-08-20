@@ -7,3 +7,5 @@ def paint_calc(height, width, cover):
 
 test_h = int(input("Height of Wall: \n "))
 test_w = int(input("Width of Wall: \n"))
+coverage = 5
+paint_calc(height = test_h, width = test_w, cover = coverage)
